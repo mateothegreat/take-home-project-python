@@ -12,6 +12,7 @@ office.
 
 # Requirements
 
+* Confirm to PEP-8.
 * Model the json data structure using [pydantic](https://pydantic-docs.helpmanual.io).
 * Implement an HTTP REST API using
   [FastAPI](https://fastapi.tiangolo.com) with the following endpoints:
