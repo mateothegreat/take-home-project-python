@@ -1,6 +1,9 @@
 version: '3'
-
-services:
-#
-# Add your service(s) here...
-#
+services: 
+  api:
+    build: .
+    restart: always
+    network_mode: host
+    expose: [80]
+    volumes: 
+      - ./:/app
