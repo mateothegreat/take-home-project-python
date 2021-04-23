@@ -10,4 +10,4 @@ EXPOSE 80
 
 COPY /src /app
 
-CMD ["uvicorn", "app:app", "--reload" , "--host", "0.0.0.0", "--port", "80"]
+CMD ["uvicorn", "app:app", "--reload" , "--host", "0.0.0.0", "--port", "2602"]
