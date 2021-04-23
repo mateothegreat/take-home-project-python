@@ -6,7 +6,7 @@ RUN pip install sqlalchemy psycopg2
 RUN pip install pytest-asyncio httpx requests
 RUN pip3 freeze >> requirements.txt
 
-EXPOSE 80
+EXPOSE 2602
 
 COPY /src /app
 
