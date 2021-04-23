@@ -8,6 +8,8 @@ services:
       - 5432
     environment:
       POSTGRES_PASSWORD: test
+    volumes:
+    - ./postgres_data:/var/lib/postgresql/data/
   api:
     network_mode: host
     build: .
