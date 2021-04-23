@@ -1,8 +1,10 @@
-from python:3.8-alpine
+from python:3.8
 
 WORKDIR /app
-
 RUN pip install fastapi uvicorn
+RUN pip install sqlalchemy psycopg2
+RUN pip install pytest-asyncio httpx requests
+RUN pip3 freeze >> requirements.txt
 
 EXPOSE 80
 
