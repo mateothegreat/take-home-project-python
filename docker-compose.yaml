@@ -9,11 +9,11 @@ services:
     environment:
       POSTGRES_PASSWORD: test
   api:
-    build: .
-    restart: always
-    depends_on: 
-      - db
     network_mode: host
+    build: .
+    depends_on: 
+      - db    
+    restart: always
     expose: [80]
     volumes: 
       - ./src:/app
