@@ -1,3 +1,34 @@
+Hi Matthew ,A thousand apologies for the delay, the truth is that I have very little time I tried to do everything, I don't know if I told you Mercedes but I am moving to London. .
+
+
+I couldn't get my hands on it until two days ago that I stayed awake ahaha. (surely many things with more lucidity I do them better)
+
+Well I would be very interested in working with you, the truth is, the interviews are very cool.
+Keep growing in both machine learnig Terraform and kubernetes, and whatever comes next,
+
+# Considerations I had:
+
+* I assumed that the doctor had the office at latitude 0 and longitude 0. (to get the distance, I calculate the vector) distance ^ 2 = longitude ^ 2 + latitude ^ 2.
+
+* The first filter is the attendance ratio, second filter is the distance, third the time of atendance
+
+Add:
+- Deploy, pipeline with Github actions
+- Docker-compose
+- Docker- File
+- Two types of databases, (sqlLite, psql)
+
+With more time :
+- Deliver a back office to manage the office.
+- I would improve the tests (I would do them again well)
+- I would put more emphasis on the ML algorithm (just for the sake of learning, this weekend I'm sure to think about it)
+
+
+  
+
+Whatever happens, thanks for the good vibes.
+
+
 # Python Engineer Take Home Project
 
 The goal of this exercise is to demonstrate your problem solving skills.

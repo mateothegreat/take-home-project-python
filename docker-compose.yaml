@@ -1,6 +1,21 @@
 version: '3'
-
 services:
-#
-# Add your service(s) here...
-#
+  db:
+    network_mode: host
+    image: postgres
+    restart: always
+    expose: 
+      - 5432
+    environment:
+      POSTGRES_PASSWORD: test
+    volumes:
+    - ./postgres_data:/var/lib/postgresql/data/
+  api:
+    network_mode: host
+    build: .
+    depends_on: 
+      - db    
+    restart: always
+    expose: [80]
+    volumes: 
+      - ./src:/app
